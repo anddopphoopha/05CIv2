@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AppTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-03-03T14:41:55" hostname="DESKTOP-DBG9AQ3" time="0.008">
+<testsuite name="AppTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-03-03T15:50:05" hostname="DESKTOP-DBG9AQ3" time="0.06">
   <properties/>
-  <testcase name="testSmallNoPrime" classname="AppTest" time="0.003"/>
+  <testcase name="testSmallNoPrime" classname="AppTest" time="0.002"/>
   <testcase name="testSmallPrime" classname="AppTest" time="0.0"/>
-  <testcase name="testLargeNoPrime" classname="AppTest" time="0.001"/>
+  <testcase name="testLargeNoPrime" classname="AppTest" time="0.0"/>
   <testcase name="testLargePrime" classname="AppTest" time="0.004"/>
+  <testcase name="oneNotPrime" classname="AppTest" time="0.05"/>
+  <testcase name="morePrime" classname="AppTest" time="0.001"/>
+  <testcase name="onePrime" classname="AppTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

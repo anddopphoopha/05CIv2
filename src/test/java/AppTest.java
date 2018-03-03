@@ -28,7 +28,6 @@ public class AppTest {
     }
 
     @Test
-<<<<<<< HEAD
     public void onePrime() {
         App appObj = new App();
         appObj.primeFactor(147);
@@ -41,12 +40,9 @@ public class AppTest {
         appObj.primeFactor(35);
         assertTrue(appObj.primeFactors.equals("5 7 "));
     }
-}
-=======
     public void twoPrime() {
         App appObj = new App();
         appObj.countPrimeNumber(1, 5);
         assertTrue(appObj.primeNumbers1.equals("1 2 3 5 "));
     }
 }
->>>>>>> Feature2

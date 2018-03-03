@@ -1,6 +1,10 @@
 public class App {
+<<<<<<< HEAD
     public String primeFactors = "";
     public String primeNumbers1 = "";
+=======
+    public String primeNumbers2 = "";
+>>>>>>> Feature3
 
     public boolean isPrime(long number) {
         double max = Math.sqrt(number) + 1;
@@ -19,6 +23,7 @@ public class App {
         return true;
     }
 
+<<<<<<< HEAD
     public void primeFactor(int num) {
         for (int i = 2; i <= num; i++) {
             if (num % i == 0) {
@@ -27,10 +32,17 @@ public class App {
                 }
                 primeFactor(num / i);
                 break;
+=======
+    public void primeFactor(int[] num) {
+        for (int i = 0; i < num.length; i++) {
+            if (isPrime(num[i])) {
+                primeNumbers2 += (num[i] + " ");
+>>>>>>> Feature3
             }
         }
     }
 
+<<<<<<< HEAD
     public void countPrimeNumber(int num, int num2) {
         for (int i = num; i <= num2; i++) {
             if (isPrime(i)) {
@@ -50,6 +62,17 @@ public class App {
             int num2 = Integer.parseInt(args[1]);
             appObj.countPrimeNumber(num1, num2);
             System.out.println(appObj.primeNumbers1);
+=======
+    public static void main(String[] args) {
+        App appObj = new App();
+        if (args.length > 2) {
+            int[] array = new int[args.length];
+            for (int i = 0; i < args.length; i++) {
+                array[i] = Integer.parseInt(args[i]);
+            }
+            appObj.primeFactor(array);
+            System.out.println(appObj.primeNumbers2);
+>>>>>>> Feature3
         } else {
             long input = Long.parseLong(args[0]);
             System.out.println(appObj.isPrime(input));

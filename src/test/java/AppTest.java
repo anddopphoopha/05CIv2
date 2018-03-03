@@ -45,9 +45,6 @@ public class AppTest {
         appObj.countPrimeNumber(1, 5);
         assertTrue(appObj.primeNumbers1.equals("1 2 3 5 "));
     }
-}
-<<<<<<< HEAD
-=======
 @Test
     public void morePrime(){
         App appObj = new App();
@@ -56,4 +53,3 @@ public class AppTest {
         assertTrue(appObj.primeNumbers2.equals("1 2 3 5 "));
     }
 }
->>>>>>> Feature3

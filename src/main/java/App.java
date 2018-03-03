@@ -32,17 +32,13 @@ public class App {
 
     public static void main(String[] args) {
         App appObj = new App();
-        if (args.length < 1 || args.length > 1) {
-            System.out.println("Please input a number as the program argument");
-            System.exit(0);
-        } else if (args.length == 1) {
+        if (args.length == 1) {
             int num1 = Integer.parseInt(args[0]);
             appObj.primeFactor(num1);
             System.out.println(appObj.primeFactors);
+        } else {
+            long input = Long.parseLong(args[0]);
+            System.out.println(appObj.isPrime(input));
         }
-
-        long input = Long.parseLong(args[0]);
-
-        System.out.println(appObj.isPrime(input));
     }
 }
